@@ -1,0 +1,12 @@
+apiVersion: v2
+appVersion: "1.0"
+description: A Helm chart for cookie2-cookie3 App
+name: cookie2-cookie3
+home: https://github.com/hmcts/cookie2-cookie3
+version: 0.0.1
+maintainers:
+  - name: HMCTS cookie2 team
+dependencies:
+  - name: java
+    version: 3.0.2
+    repository: '@hmctspublic'
